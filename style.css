@@ -59,18 +59,35 @@ body {
 }
 
 
+
 /*PROFILE SECTION*/
+.myprofile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-p1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#profile-a img {
+    height: 60px;
+    width: 60px;
+    border: 2px #c7c7c7;
+    border-radius: 50px;
+}
+
 .about-ig ul {
     font-size: 12px;
     color: #c7c7c7;
-    display: inline-flexbox;
-    justify-content: flex-start;
+    display: inline-block;
+    list-style-type: none;
+    justify-content: baseline;
     align-items: center;
     margin-bottom: 19px;
-}
-
-.about-ig span {
-    padding: 2px;
 }
 
 .about-ig p {
