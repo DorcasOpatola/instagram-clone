@@ -17,7 +17,37 @@ body {
     align-items: flex-start;
 }
 
+.logo {
+    margin: 0px 0px 19px;
+    padding: 25px 12px 16px;
+}
+
 .side-nav {
     display: grid;
+    justify-content: flex-start;
+    align-items: center;
+}
 
+.profile-pic img {
+    border-radius: 50px;
+}
+
+.side-nav img {
+    height: 24px;
+    width: 24px;
+}
+
+.profile-pic,
+.side-navigation {
+    margin: 2px 0px;
+    padding: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile-pic span,
+.side-navigation span {
+    padding-left: 16px;
+    font-size: 16px;
 }
