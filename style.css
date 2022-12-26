@@ -65,6 +65,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 16px 0px 10px;
 }
 
 .my-p1 {
@@ -73,11 +74,58 @@ body {
     align-items: center;
 }
 
+#profile-b {
+    margin: 0px 0px 0px 12px;
+    padding-right: 130px;
+}
+
+#pro {
+    font-size: 14px;
+    color: #262626;
+    font-weight: bold;
+}
+
+#pro-b {
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.my-p2 {
+    color: #0095f6;
+    font-size: 12px;
+    font-weight: bold;
+}
+
 #profile-a img {
-    height: 60px;
-    width: 60px;
+    height: 56px;
+    width: 56px;
     border: 2px #c7c7c7;
     border-radius: 50px;
+}
+
+.suggest {
+    display: flex;
+    padding: 4px 16px;
+}
+
+#suggest-a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #8e8e8e;
+}
+
+#suggest-b {
+    color: #262626;
+    font-size: 14px;
+}
+
+.who-to-follow img {
+    height: 32px;
+    width: 32px;
+}
+
+.who-to-follow .myprofile {
+    padding: 8px 16px;
 }
 
 .about-ig ul {
