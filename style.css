@@ -10,6 +10,12 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.side-bar {
+    padding: 8px 12px 20px;
+    border-right: 200px #000000;
+    
+}
+
 .bind {
     display: flex;
     justify-content: space-between;
@@ -33,18 +39,22 @@ body {
 
 .side-nav img,
 .burger img {
-    height: 24px;
+    height: 26px;
     width: 24px;
 }
 
 .profile-pic,
 .side-navigation,
 .burger {
-    margin: 2px 0px;
     padding: 12px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+.burger {
+    margin: 4px 0px;
+    padding-top: 120px;
 }
 
 .profile-pic span,
