@@ -13,13 +13,13 @@ body {
 .side-bar {
     padding: 8px 12px 20px;
     border-right: 200px #000000;
-    
+    position: fixed;
 }
 
 .bind {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .logo {
@@ -54,7 +54,7 @@ body {
 
 .burger {
     margin: 4px 0px;
-    padding-top: 120px;
+    padding-top: 105px;
 }
 
 .profile-pic span,
@@ -66,6 +66,7 @@ body {
 
 .main-division {
     margin: 0px 99px;
+    position: relative;
 }
 
 
