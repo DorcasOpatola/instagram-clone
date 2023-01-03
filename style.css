@@ -16,6 +16,7 @@ body {
     padding: 8px 12px 20px;
     border-right: 200px #000000;
     position: fixed;
+    max-width: 20%;
 }
 
 .bind {
@@ -69,6 +70,7 @@ body {
 .main-division {
     margin: 0px 99px;
     position: relative;
+    max-width: 80%;
 }
 
 
@@ -93,7 +95,7 @@ body {
 
 #profile-b {
     margin: 0px 0px 0px 12px;
-    padding-right: 130px;
+    padding-right: 110px;
 }
 
 #pro {
@@ -120,6 +122,22 @@ body {
     border-radius: 50px;
 }
 
+.suggest {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#suggest-a {
+    font-size: 14px;
+    color: #a8a8a8;
+}
+
+#suggest-b {
+    font-size: 12px;
+    color: #262626;
+}
+
 .about-ig ul {
     font-size: 12px;
     color: #c7c7c7;
@@ -135,5 +153,5 @@ body {
 
 .about-ig p {
     font-size: 12px;
-    color: #737373;
+    color: #c7c7c7;
 }
