@@ -131,6 +131,7 @@ body {
 #suggest-a {
     font-size: 14px;
     color: #a8a8a8;
+    font-weight: bold;
 }
 
 #suggest-b {
@@ -138,21 +139,44 @@ body {
     color: #262626;
 }
 
-.flow-img {
+.flow-img img {
     height: 32px;
     width: 32px;
     border-radius: 50px;
     border-color: 2px #c7c7c7;
 }
 
-.followed-p2 {
+.flow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.who-to-follow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.followed-by {
+    padding-left: 10px;
+}
+
+#followed-p2 {
     color: #8e8e8e;
     font-size: 12px;
 }
 
-.followed-p1 {
+#followed-p1 {
     color: #262626;
     font-size: 14px;
+}
+
+.follow p {
+    color: #0095f6;
+    font-size: 12px;
 }
 
 .about-ig ul {
