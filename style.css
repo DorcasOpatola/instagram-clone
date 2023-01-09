@@ -10,13 +10,16 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 8px 0px 0px;
     color-scheme: dark;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .side-bar {
     padding: 8px 12px 20px;
-    border-right: 200px #000000;
     position: fixed;
-    max-width: 20%;
+    max-width: 30%;
 }
 
 .bind {
@@ -25,11 +28,11 @@ body {
     align-items: center;
 }
 
-.logo {
+/*.logo {
     margin: 0px 0px 19px;
     padding: 25px 12px 16px;
 }
-
+*/
 .side-nav {
     display: grid;
     justify-content: flex-start;
@@ -68,9 +71,12 @@ body {
 }
 
 .main-division {
-    margin: 0px 99px;
-    position: relative;
-    max-width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    margin: 0px 200px;
+    max-width: 70%;
 }
 
 
